@@ -1,5 +1,10 @@
 /* FILEPATH: /c:/Users/alexg/Documents/code/group-chat/style.css */
 
+.logo {
+  width: 100px;
+  margin: 0;
+}
+
 /* Style for the chat container */
 .chat-container {
   display: flex;
