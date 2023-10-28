@@ -7,14 +7,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header title with DEV logo -->
   <h1><img src="https://tosu.dev/assets/logo.png" class="logo"> Group chat</h1>
+
   <div class="chat-container">
+    <!-- empty div will later contain all the messages in conversation -->
     <div class="messages-list" id="messages-list">
     </div>
+
+    <!-- input field and send button -->
     <div class="entry">
       <textarea class="entry-input" id="entry-input" placeholder="Type your message here"></textarea>
       <button class="send-button" id="send-button">Send</button>
     </div>
+
   </div>
+  <!-- this links script to the html file - script will be executed after html is rendered -->
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,11 +1,10 @@
-/* FILEPATH: /c:/Users/alexg/Documents/code/group-chat/style.css */
-
+/* DEV logo */
 .logo {
   width: 100px;
   margin: 0;
 }
 
-/* Style for the chat container */
+/* style for the chat container */
 .chat-container {
   display: flex;
   flex-direction: column;
@@ -14,7 +13,7 @@
   background-color: #f5f5f5;
 }
 
-/* Style for the chat conversation history container */
+/* style for the chat conversation history container */
 .messages-list {
   flex: 1;
   display: flex;
@@ -22,7 +21,7 @@
   overflow-y: scroll;
 }
 
-/* Style for the chat messages */
+/* style for the chat messages */
 .message {
   display: flex;
   flex-direction: column;
@@ -32,14 +31,14 @@
   border-radius: 10px;
 }
 
-/* Style for the chat input */
+/* style for the input container */
 .entry {
   display: flex;
   align-items: center;
   margin-top: auto;
 }
 
-/* Style for the chat input field */
+/* style for the input field */
 .entry-input {
   flex: 1;
   padding: 10px;
@@ -48,12 +47,11 @@
   margin-right: 10px;
 }
 
-/* Style for the chat input button */
+/* Style for the send button */
 .send-button {
   background-color: #357def;
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px;
-  cursor: pointer;
 }
